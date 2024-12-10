@@ -16,8 +16,8 @@ provider "azurerm" {
 }
 
 # Create a resource group
-resource "azurerm_resource_group" "example" {
-  name     = "example-resources"
+resource "azurerm_resource_group" "hamsaroddin" {
+  name     = "rg111"
   location = "West Europe"
 }
 
